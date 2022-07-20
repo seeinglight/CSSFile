@@ -1,0 +1,644 @@
+/* div{
+	border-width: 1px;
+	border-color: red;
+	border-style: solid;
+}
+ */
+.header-blank a{
+	text-decoration: none;
+	color: whitesmoke;
+	transition: color 0.5s;
+}
+.header-blank a:hover{
+	text-decoration: none;
+	color: orangered;
+}
+
+.header-blank{
+	color: whitesmoke;
+	background-color: #343434;
+	height: 70px;
+	margin: 0 auto;
+}
+.left-header{
+	padding-top: 15px;
+	height: 60px;
+	margin: 0 auto;
+}
+.right-header{
+	height: 60px;
+	margin: 0 auto;
+}
+
+.header-blank-Cube{
+	padding-top: 25px;
+	padding-left: 30px;
+	font-size: 17px;
+	float: left;
+	height: 60px;
+}
+.searchBoxCube{
+	float: left;
+	transition: ;
+	margin-top: 20px;
+	height: 30px;
+	width: 30px;
+	border-radius: 10px;
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-left: 10px;
+	background-color: whitesmoke;
+	transition: width 0.6s;
+	background-image: url(../img/search.png);
+	background-repeat: no-repeat;
+	background-position: 5px 5px ;
+	background-size: 20px 20px;
+}
+.searchBoxCube:hover{
+	width: 290px;
+
+}
+.searchBox{
+	border: none;
+	float: left;
+	background: transparent;
+	
+	}
+	
+	
+/* 头部CSS */
+.Banner{
+/* 	background-color: mintcream; */
+	height: 700px;
+	background-image: url(../img/PillSmall.png);
+	color: whitesmoke;
+}
+
+.Banner-Top{
+	font-size: 80px;
+	text-align: center;
+	height: 300px;
+	vertical-align: middle;
+	padding-top: 50px;
+}
+.Banner-Bottom-left{
+	font-size: 40px;
+	float: left;
+	text-align: center;
+	height: 200px;
+}
+.Banner-Bottom-right{
+	font-size: 40px;
+	float: left;
+	text-align: center;
+	height: 200px;
+}
+.TimeCount{
+	text-align: center;
+	font-size:32px;
+	text-shadow: 5px 5px 5px #000000;
+}
+
+
+.Titile-text{
+	padding-top: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+.Titile-sectext{
+	padding-top: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+/* 轮播购物 */
+
+	/* 侧边购物信息 */
+	.Shopinfo-Top{
+		background-color: #545454;
+		height: 50px;
+		border-radius: 30px 30px 0 0 ;
+	}
+	.Shopinfo-Top-car{
+		width: 45px;
+		margin-left: 20px;
+	}
+	.Shopinfo{
+		background-color: whitesmoke ;
+		border-radius: 30px;
+	}
+	.address-div{
+		margin-bottom: 30px;
+	}
+	.buy{
+		margin-top: 30px;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+	/* 购物数量 */
+			.NumInput-div{
+				margin-top: 5px;
+				float: left;
+				padding-left: 50px;
+			}
+			.NumCount-Button-Div{
+				/* float: left; */
+				width: 100px;
+			}
+			.NumCount-Button-up{
+				display: block;
+				width: 15px;
+				height: 15px;
+				background-image: url(../img/up-one.png);
+				background-size: 15px 15px;
+				border: transparent;
+			}
+			.NumCount-Button-down{
+				display: block;
+				width: 15px;
+				height: 15px;
+				background-image: url(../img/down-one.png);
+				background-size: 15px 15px;
+				border: transparent;
+			}
+			.NumInput{
+				width: 30px;
+			}
+		/* 购物数量 */
+	.Shopinfo-explaintext{
+		margin-bottom: 20px;
+	}
+	/* 侧边购物信息 */
+
+
+
+.midPic{
+
+/* 	position: absolute; */
+
+	
+}
+
+
+.TopShow{
+	width: 100%;
+	padding-top: 70px;
+	height: 500px;
+	margin-bottom: 100px;
+}
+#TopShow-Pic{
+	border-radius: 60px;
+	margin: 0 auto;
+	/* width: 670px; */
+	transition: 1s;
+}
+.Piclist-ShowText{
+	background-color: whitesmoke;
+	font-size: 18px;
+	text-align: center;
+}
+.Piclist{
+	padding-top: 10px;
+	background-color: whitesmoke;
+	padding-bottom: 10px;
+}
+.Piclist-1{
+	display: block;
+	width: 200px;
+	height:150px;
+	border-radius: 20px;
+}
+/* 轮播购物 */
+/* Tab */
+.TabBlock{
+	color: whitesmoke;
+	/* background-color: #454545; */
+	margin-top: 100px;
+	height: 800px ;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.TabBlock-Message{
+	background-color: #565656;
+	height: 100%;
+	
+}
+
+
+
+.Tab-Choices{
+	transition: 0.8s;
+	margin-right:20px;
+	height: 80px;
+	background-color: #565656;
+	border-bottom: 2px solid whitesmoke;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 20px;
+}
+.TabBlock-1{
+	
+}
+.TabBlock-2{
+	display: none;
+}
+.TabBlock-3{
+	display: none;
+}
+.TabBlock-4{
+	display: none;
+}
+.CompanyIntroduce-Title{
+	font-size: 42px;
+}
+.CompanyIntroduce-Title2{
+	margin: 0 auto;
+}
+
+.CompanyIntroduce-PicAll{
+	border-radius: 30px;
+/* 	margin-left: 90px; */
+}
+.CompanyIntroduce-Pic1{
+	border-radius: 30px;
+
+}
+.CompanyIntroduce-Pic{
+	margin: 0 auto;
+}
+.CompanyIntroduce-Text{
+	text-align: center;
+padding-top: 30px;
+font-size: 18px;
+line-height: 25px;
+}
+.CompanyIntroduce-Text2{
+text-align: center;
+padding-top: 30px;
+font-size: 18px;
+line-height: 25px;
+}
+.CompanyIntroduce-Pic2{
+
+
+}
+.CompanyIntroduce-Pic3{
+margin-left: 40px;
+
+}
+	/* 商品评论 */
+	.HandonTalks-Div{
+		margin-top: 10px;
+		display: flex;
+		 justify-content: center;
+		 align-items: center;
+		 flex-wrap: wrap;
+	}
+	.HandonTalks{
+		
+		
+		background-color:gray;
+	}
+	.Talks{
+		width: 100%;
+		border-bottom: silver solid 3px;
+	}
+	.Talks-Words{
+
+		margin-left: 80px;
+		font-size: 18px;
+	}
+	.NowShowTimes{
+		float: right;
+	}
+	.Input{
+		border-top: whitesmoke 6px solid;
+		border-radius: 3px ;
+	}
+	.Talk-List{
+		height: 70%;
+
+	}
+	.UserName-Div-Title{
+		float: left;
+		padding-right: 30px;
+		padding-top: 30px;
+	}
+	.UserName-Div{
+		padding-top: 30px;
+		/* float: left; */
+		
+	}
+	.UserName-Input{
+		padding-left: 20px;
+		color: silver;
+		/* background: transparent; */
+		border: none;
+		border-radius: 30px;
+		
+	}
+	.InputTalks-Div{
+		
+	}
+	.InputTalks{
+		color: silver;
+		margin-top: 30px;
+		margin-left: 5%;
+		margin-left: 5%;
+		height: 100px;
+		width: 90%;
+		border-radius: 30px;
+	}
+	/* 商品评论 */
+	/* 技术支持 */
+	.jszc-main{
+		width: 100%;
+		height: 100%;
+		padding-top: 50px;
+	}
+	/* .jszc{
+		margin: 50px auto;
+		width: 700px;
+	} */
+	}
+	.jszc hr{
+		width: 100%;
+		
+	}
+	}
+	.jszc img{
+		float: right;
+	}
+	.d1,.d2,.d3{
+		margin: 0 auto;
+		width: 600px;
+		margin-bottom: 20px;
+		margin-left: 30px;
+		float: left;
+	}
+	
+	
+	/* 防伪查询 */
+	
+		
+	.fwcx-main{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.fwcx{
+		width: 100%;
+		text-align: center;
+		
+	}
+	.sp1{
+		font-size: 46px;
+	}
+	.sp2{
+		font-size: 24px;
+	}
+	.sp3{
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.sp3 a{
+		font-size: 14px;
+	}
+	input{
+		width: 300px;
+		text-align: center;
+		border:#158cfb;
+		border-radius:4px;
+	}
+	.fwcx-main .fwcx .btn{
+		width: 240px;
+		height: 40px;
+		line-height: 25px;
+		font-size: 16px;
+		font-weight: bold;
+		background-color: #158cfb;
+		border-radius:4px;
+	}
+	.fwcx-main .fwcx .btn:hover{
+		color: #fff;
+		background-color: #045cfd;
+		border-radius:4px;
+	}
+
+
+
+#Bottom-one{
+	border-bottom: none;
+	border-radius: 0 0 0 30px;
+}
+#Top-One{
+	border-radius: 30px 0 0 0;
+}
+
+/* Tab */
+/* 尾部 */
+.Footer{
+	
+	margin-top: 20px;
+	height: 80px;
+	
+}
+.Footer-left{
+	float: left;
+	font-size: 35px;
+}
+.Footer-right{
+	float: left;
+	font-size: 18px;
+}
+.Footer-right-blocks{
+	padding-top: 20px;
+	float: left;
+	height: 70px;
+}
+.LineHR{
+	
+	margin: 0 auto;
+	height: 3px;
+	background-color: silver;
+	width: 80%;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	margin-top: 30px;
+}
+/* 尾部 */
+.LineHR2{
+	
+	margin: 0 auto;
+	height: 3px;
+	width: 80%;
+	margin-bottom: 5px;
+	border-radius: 2px;
+	margin-top: 5px;
+}
+
+/* 移动导航栏 */
+.Flow_header :hover{
+	background-color: #909090 ;
+}
+.Flow_header{
+	
+	border-radius: 20px;
+	display: flex;
+			 justify-content: center;
+			 align-items: center;
+			 flex-wrap: wrap;
+	width: 40px;
+
+	background-color: whitesmoke;
+	position: fixed;
+	bottom: 50%;
+	right: 3px;
+}
+.Flow_header-Top-div{
+	border-radius: 20px;
+	transition: 0.5s;
+	
+}
+
+
+
+.Flow_header-Top{
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 20px;
+
+}
+
+
+
+/* 移动导航栏 */
+
+/* 放大镜 */
+.Mask{
+	position: absolute;
+	width: 200px ;
+	height: 200px;
+	background-color: pink;
+	left: 100px;
+	opacity: 0.4;
+	border-radius: 30px;
+}
+.Mask_show{
+	/* width: 100px; */
+	background-size: 1600px 800px;
+	background-image: url(../img/SmallPillFixd3.png);
+	height: 400px;
+	width: 400px;
+	background-repeat: no-repeat;
+
+}
+
+
+/* 放大镜 */
+
+		/* 商品列表1 */
+			/* 1 */
+			
+			#maskshow{
+				display: none;
+			}
+			.Show1{
+				
+				height: 700px;
+	/* 			margin-bottom: 100px; */
+				
+				
+			}
+			.Show1-title{
+						
+						display: flex;
+						 justify-content: center;
+						 align-items: center;
+						 flex-wrap: wrap; 
+			}
+			.show1-sectitle{
+				font-size: 18px;
+				display: flex;
+				 justify-content: center;
+				 align-items: center;
+				 flex-wrap: wrap; 
+			}
+			.show1-sectitle-img{
+				margin-right: 10px;
+			}
+			.Show1-img{	
+				display: flex;
+				 justify-content: center;
+				 align-items: center;
+				 flex-wrap: wrap; 
+			}
+			.Show1-button-div{
+				float: left;
+				margin-right: 30px;
+			}
+			.Show1-button-div-Out{
+				margin-top: 20px;
+				
+				display: flex;
+				 justify-content: center;
+				 align-items: center;
+				 flex-wrap: wrap; 
+			}
+
+			.Show1-button{
+				color: black;
+				border:2px solid black;
+				display: flex;
+				 justify-content: center;
+				 align-items: center;
+				 flex-wrap: wrap; 
+				width: 90px;
+				height: 40px;
+				background-color: white;
+				border-radius: 20px;
+				transition: 0.5s;
+			}
+			.Show1-button :hover{
+				background-color: #343434;
+				color: white;
+			}
+			.inBack{
+				background-color: #EbEbEb;
+			}
+			/* 1 */
+
+		/* 商品列表 */
+
+.try{
+	/* box-shadow: 20px 20px 10px red; */
+	height: 300px;
+	width: 300px;
+	border:1px solid red;
+}
+
+
+.Cent{
+	display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 flex-wrap: wrap; 
+}
+
+body{
+	scroll-behavior: smooth;
+	background-image: url(../img/back3.png);
+	  background-repeat: no-repeat;
+	  background-position: right top;
+	  background-attachment: fixed;
+}
+
+
+/*		display: flex;
+		 justify-content: center;
+		 align-items: center;
+		 flex-wrap: wrap;  */

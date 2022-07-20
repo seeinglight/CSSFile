@@ -1,0 +1,73 @@
+.TMainBody2outer{
+	height: 1100px;
+	width: 80%;
+	background-color: rgb(240,240,240);
+	display: block;
+	margin: 6.25rem;
+	margin-bottom: 80px;
+	margin-left: auto;
+	background-image: url(../img/Outer4.Gif);
+	background-size: 260px 1000px ;
+	background-position: 1000px ;
+}
+.TMainBody2outer1{
+	height: 30%;
+	/* width: 700px; */
+	display: block;
+	background-image:url(../img/out3.png);
+	background-size: 370px;
+	background-position: 120px 100px;
+}
+.TMainBody2outer2{
+	height: 30%;
+	/* width: 700px; */
+	display: block;
+	background-image:url(../img/out2.png);
+	background-size: 370px;
+	background-position: 120px 100px;
+}
+.TMainBody2outer3{
+	height: 30%;
+	/* width: 700px; */
+	display: block;
+	background-image:url(../img/out1.png);
+	background-size: 370px;
+	background-position: 120px 100px;
+}
+.TMainBody2outerTi{
+	font-size: 2.625rem;
+	margin-left: 6.25rem;
+	
+}
+.TMainBody2outerTi2{
+	width: 100px;
+	font-size: 24px;
+	border-right: #87CEEB solid 2px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+.TMainBody2outerTi3{
+	margin-left: 50px;
+	font-size: 16px;
+	text-indent: 2em;
+	border-right: #87CEEB solid 2px;
+	padding-right: 50px;
+	width: 700px;
+}
+
+.rightdivs{
+	float: right;
+	width: 800px;
+	background-color: ;
+}
+
+.TFooter{
+	height: 30px;
+	width: 100%;
+	background-color: lightgray;
+	margin-left: 0px;
+	display: block;
+	scroll-behavior: smooth;
+	padding-left: 8%;
+	text-align: center;
+}

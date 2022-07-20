@@ -1,0 +1,30 @@
+.Main1{
+	background-image: url(../img/SingBlockBackGround.png);
+}
+
+.Sub-Service1{
+	float: left;
+	background-image: url(../img/Car1Small.png);
+	width: auto;
+	height: auto;
+	color: whitesmoke;
+	background-repeat: no-repeat;
+}
+.Sub-Service2{
+	float: left;
+	background-image: url(../img/Family2.png);
+	width: auto;
+	height: auto;
+	color: whitesmoke;
+	background-repeat: no-repeat;
+}
+
+
+
+.Out1{
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+	background-position: 200px;
+	background-image: url(../img/QRCod.png);
+
+}

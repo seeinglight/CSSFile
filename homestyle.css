@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.banner .banner-a1 {
+	display: block;
+	width: 70px;
+	height: 30px;
+	background-color: red;
+	position: absolute;
+	top: 75px;
+	left: 580px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.banner-a2 {
+	color: #000;
+}
+
+.banner-a2 .banner-div1 {
+	position: absolute;
+	top: 0;
+	right: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-img-2 {
+	width: 200px;
+}
+
+.banner-div1 span {
+	text-align: center;
+}
+
+.banner-ul {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	background-color: #444444;
+	list-style: none;
+}
+
+.banner-ul li {
+	/* width: 100px; */
+	height: 100%;
+	margin-right: 45px;
+
+}
+
+.banner-ul li:first-child {
+	background-color: red;
+	width: 100px;
+	height: 100%;
+}
+
+.banner-ul a {
+	color: #fff;
+
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	line-height: 30px;
+}
+
+.mian {
+	width: 100%;
+	height: 2000px
+}
+
+.mian .coupon {
+	margin: 0 auto;
+	width: 1700px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 140px;
+}
+
+
+
+.mian .coupon span {
+	display: flex;
+	align-items: flex-end;
+	font-size: 80px;
+	font-weight: 500;
+
+}
+
+
+.mian .coupon span .h1 {
+	display: block;
+	font-size: 180px;
+	font-family: 苹方;
+	height: 200px;
+	font-weight: bold;
+}
+
+.mian .classify {
+	margin: 0 auto;
+	width: 1700px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.mian .classify div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mian .classify div img {
+	margin-right: 20px;
+}
+
+.mian .classify .span-box {
+	display: flex;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	align-items: center;
+
+}
+
+.mian .classify .span-box .sp1 {
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+}
+
+.mian-box {
+	background-color: #f3f3f3;
+}
